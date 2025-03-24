@@ -5,7 +5,7 @@ public class Guerrero extends Personaje {
     private Personaje compañeroProtegido;
 
     public Guerrero(String nombre, int nivel, int puntosVida, String inventario) {
-        super(nombre, nivel, puntosVida, inventario);
+        super(nombre, nivel, puntosVida);
         this.protegiendo = false;
         this.compañeroProtegido = null;
     }
