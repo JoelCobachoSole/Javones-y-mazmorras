@@ -5,7 +5,7 @@ public class Mago extends Personaje{
 	private double mana;
 	
 	public Mago(String nombre, int nivel, int puntosVida, String inventario,double mana) {
-		super(nombre, nivel, puntosVida, inventario);
+		super(nombre, nivel, puntosVida);
 		this.mana = mana;
 	}
 
