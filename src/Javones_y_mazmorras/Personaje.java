@@ -65,4 +65,9 @@ public abstract class Personaje {
         inventario.add(equipamiento);
         System.out.println("Se ha añadido " + equipamiento + " al inventario de " + nombre);
     }
+
+	public void interactuar(Personaje otro) {
+		// TODO Auto-generated method stub
+		
+	}
 }
