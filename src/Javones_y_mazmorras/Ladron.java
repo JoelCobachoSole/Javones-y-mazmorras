@@ -4,7 +4,7 @@ public class Ladron extends Personaje {
     private boolean invisible;
 
     public Ladron(String nombre, int nivel, int puntosVida, String inventario) {
-        super(nombre, nivel, puntosVida, inventario);
+        super(nombre, nivel, puntosVida);
         this.invisible = false;
     }
 
